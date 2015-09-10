@@ -14,3 +14,12 @@ git trae a mi rama (en la cual estoy poscisionado) los cambios que hay en la ram
 ```
 git merge DEVELOP
 ```
+**Renombrar un Branch**
+If you want to rename a branch while pointed to any branch, simply do :
+```
+git branch -m <oldname> <newname>
+```
+If you want to rename the current branch, you can simply do:
+```
+git branch -m <newname>
+```
