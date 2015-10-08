@@ -1,6 +1,14 @@
 # gitCommands
 
-###Renaming a branch in github
+###Creating a branch
+Thers a two ways for create a new branch, first and easyer is with a branch command
+```
+git branch TICKET-123
+git checkout TICKET-123
+git branch -m <oldname> <newname>
+```
+
+###Renaming a branch
 If you want to rename a branch while pointed to any branch, simply do :
 ```
 git branch -m <oldname> <newname>
